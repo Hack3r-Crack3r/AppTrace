@@ -23,5 +23,5 @@ To retrieve the slowest actions, use the `SQLApplicationTrace` class's `sql_retr
 
 #### The AppTrace uses the following dependencies:
 
-- Python 3.6+
+- Python 3.11.2
 - SQLite3
