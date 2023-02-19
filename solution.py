@@ -69,6 +69,7 @@ def main():
                 print(output_str)
         else:
             print(output[MESSAGE])
+        logging.info("Program terminated")
     except Exception as e:
         # Log any exceptions that occur
         exc_type, exc_obj, exc_tb = sys.exc_info()
